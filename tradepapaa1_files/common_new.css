@@ -1,0 +1,89 @@
+/*Common*/
+
+/*LayerPopup*/
+	.layerPopup_bg{position:fixed; left:0; top:0; z-index:30000; width:100%; height:100%; background-color:rgba(0,0,0,0.8); overflow-y:auto;}
+	.popup_close a{position:absolute; top:5%; right:5%; width:40px; height:40px;}
+	.layerPopup_box{width:60%; margin:10% auto; -webkit-box-sizing:border-box; -ms-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+	.tableBg{background-color:#eaeff7;}
+	.bg_white{background-color:#fff; padding:20px;}
+	.layerPopup_diff{border:5px solid #ddd;}
+	.layerPopup_title{font-size:20px; color:#333; font-weight:bold; letter-spacing:-0.4px; padding-bottom:15px; border-bottom:1px solid #ddd;}
+	.layerPopup_con{padding-top:15px;}
+	.con_tit{line-height:1.2; color:#333; letter-spacing:-0.5px; font-size:15px;}
+	.note{display:table; width:100%; margin:10px 0; padding:8px; border:1px solid #686bbd; -webkit-box-sizing:border-box; -ms-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+	.note p{display:table-cell; color:#686bbd; font-size:14px;}
+	.note .t01{width:45px; font-weight:600;}
+	.layerPopup_table{width:100%;}
+	.layerPopup_table th{background-color:#f8f9fb; font-weight:bold;}
+	.layerPopup_table th, .layerPopup_table td{vertical-align:middle; text-align:center; font-size:15px; border:1px solid #ddd; padding:10px; overflow:hidden;}
+
+	/*LayerPopup Page*/
+		.sBtn_2col{margin:10px 0px;}
+		.sBtn_2col a{display:inline-block; padding:5px 10px; margin-right:5px; font-weight:600;}
+		.sBtn_2col .selectAll{color:#f0ae50; border:1px solid #f0ae50;}
+		.sBtn_2col .deleteAll{color:#b9b9b9; border:1px solid #b9b9b9;}
+		.btn_bttm_2col{margin:20px 10px; text-align:center;}
+		.btn_bttm_2col button{min-width:25%; padding:0 5%; margin:0 1%; border:0 none; outline:0 none; font-size:18px; font-weight:bold; line-height:40px; cursor:pointer; margin-bottom:30px;}
+		.submitBtn{background-color:#f0ae50;}
+		.cancelBtn{background-color:#cdc8c1;}
+		.pageingWrap{padding:0; margin-bottom:10px; text-align:center;}
+		.layerPopup_con .pageing{padding:5px 0 10px; background-color: #fff;}
+		.pageMove_btn a{font-size:36px; line-height:36px; text-align:center; color:#ddd;}
+		.pageing span{font-size:16px; color:#222; line-height:36px;}
+		.pageing em{font-weight:bold; font-style:normal;}
+		.bt_pr{position:absolute; left:0px;}
+		.bt_nx{position:absolute; right:0;}
+		.pageMove_input{margin-top:5px;}
+		.pageMove_input span{font-size:13px;}
+		.pageMove_input input{width:40px; height:30px; border:1px solid #e6e6e6; margin:0 5px; padding:5px; -webkit-box-sizing:border-box; -ms-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+		.pageMove_input a{display:inline-block; width:48px; height:29px; margin-top:3px; border:1px solid #e6e6e6; border-radius:3px; background:-ms-linear-gradient(#FFF,#F6F6F6); background:-webkit-linear-gradient(#FFF,#F6F6F6); background:-moz-linear-gradient(#FFF,#F6F6F6); background:linear-gradient(#FFF,#F6F6F6); filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#F6F6F6'); font-size:13px; font-weight:bold; color:#6a6666; line-height:29px; text-align:center;}
+
+/*page bottom add text*/
+	.addTxt_dtt_pc{display:none;}
+	.addTxt_dtt{margin:10px; border:1px solid #aeb6e4; padding:0 !important; background:#f2f9ff;}
+	.addTxt_dtt p{padding:10px 10px 0; font-size:16px; color:#001794; font-weight:bold;}
+	.addTxt_dtt span{padding:5px 10px 10px !important; display: inline-block;}
+
+@media screen and (max-width : 1300px){
+	/*page bottom add text*/
+		.addTxt_dtt_pc{display:block;}
+}
+
+@media screen and (max-width : 1100px){
+	/*LayerPopup*/
+		.layerPopup_box{margin:15% auto;}
+}
+
+@media screen and (max-width : 760px){
+	/*LayerPopup*/
+		.layerPopup_box{width:80%;}
+}
+
+@media screen and (max-width : 650px){
+	/*LayerPopup*/
+		.layerPopup_box{margin-top:20%;}
+		.layerPopup_diff{border:none 0; width:100% !important;}
+}
+
+@media screen and (max-width : 460px){
+	/*LayerPopup*/
+		.layerPopup_box{width:90%; margin-top:28%;}
+		.bg_white{padding:20px 10px;}
+	
+	/*page bottom add text*/
+	.addTxt_dtt p{padding:6px 10px 0; font-size:15px;}
+}
+
+@media screen and (max-width : 430px){
+	/*LayerPopup*/
+		.popup_close a{top:3%; right:3%;}
+		.layerPopup_diff{margin-top:23%;}
+		.con_tit{font-size:13px;}
+		.note p{font-size:13px;}
+		.layerPopup_table th, .layerPopup_table td{font-size:13px;}
+	
+		/*LayerPopup Page*/
+			.btn_bttm_2col{margin:20px 0px;}
+			.btn_bttm_2col button{margin-bottom:0px; min-width:49%; padding:0; margin:0;}
+			.pageingWrap{font-size:13px;}
+}
